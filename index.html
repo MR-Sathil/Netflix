@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NETFLIX</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-    <div id="headerDiv">
-        <nav>
-            <div id="navDiv">
-                <h1 id="logo">NETFLIX</h1>
-                <div id="signinButton"><a href="">Sign In</a></div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-        <main>
-            <div id="title">
-                <h2>Unlimited movies, TV shows, and more</h2>
-                <p>Starts at USD 2.99. Cancel anytime.</p>
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                <div id="inputEmailBox">
-                    <input type="email" value="Email adress">
-                    <button>Get Started</button>
-                </div>
-            </div>
-        </main>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="img/logo.png" alt="Netflix Logo" class="logo" />
+        <button class="sign-in-btn">Sign In</button>
+      </header>
+      <div class="content">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h2>Starts at USD 2.99. Cancel anytime.</h2>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form>
+          <input type="email" placeholder="Email address" />
+          <button type="submit" class="get-started-btn">Get Started</button>
+        </form>
+      </div>
     </div>
-    </header>
-</body>
+  </body>
 </html>
